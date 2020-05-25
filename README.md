@@ -31,11 +31,11 @@
 1. 下载[gibMacOS](https://cloud.upchome.cn:3301/#/s/15tA),解压,双击打开gibMacOS.bat,按```R```切换至恢复模式镜像,输入数字下载带有```FULL Install```最新的镜像包,镜像包会下载至当前文件夹下的```macOS Downloads```文件夹下,是一个pkg文件,复制这个文件的路径待用
 2. 插上U盘,在gibMacOS目录下双击打开Makeinstall.bat,在窗口上面会显示已插入的U盘,需要输入**U盘编号+O**(例如U盘编号为3 : ```3O```),按照提示操作
 3. ![image-20200525192033005](./image-20200525192033005.png)到这个步骤输入上一步复制的文件路径,然后回车,等待完成
-4. 此时电脑上会有一个BOOT的盘符,里面有一个EFI文件夹,删除掉EFI文件夹,用[EFI](https://cloud.upchome.cn:3301/#/s/M2ig)替换,将我们自己生成的SSDT文件放入ACPI文件夹内
+4. 此时电脑上会有一个BOOT的盘符,里面有一个EFI文件夹,删除掉EFI文件夹,用这个[EFI下载](https://cloud.upchome.cn:3301/#/s/M2ig)文件夹替换,将我们自己生成的SSDT文件放入ACPI文件夹内
 
 ### 第三节:选择硬件驱动
 
-1. 有线网卡与无线网卡驱动,技嘉Z390 PRO WIFI主板有线网卡驱动为Intel i219,无线网卡无法驱动,已自行购买**BCM94360cs2**,此款免驱无需驱动文件,同款主板可[点此下载](https://cloud.upchome.cn:3301/#/s/v3C6)
+1. 有线网卡与无线网卡驱动,技嘉Z390 PRO WIFI主板有线网卡驱动为Intel i219,无线网卡无法驱动,已自行购买**BCM94360cs2**,此款免驱无需驱动文件,同款主板有线网卡驱动可[点此下载](https://cloud.upchome.cn:3301/#/s/v3C6)
 2. 无线修复驱动,修复睡眠后无线网卡掉速问题,[AirportBrcmFixup](https://cloud.upchome.cn:3301/#/s/B2hA)
 3. USB修复,[USBInjectAll](https://cloud.upchome.cn:3301/#/s/9kTW)
 4. 将驱动文件解压放入**Kexts**文件夹内
@@ -63,10 +63,10 @@
 
 ### 第七节:系统安装
 
-* 下一步 -> 下一步 -> ...
+* 连上无线局域网
+
+* 下一步 -> 下一步 -> ... -> 等待安装完成
 
 ### 第八节:安装后的完善
 
 ### 第九节:设置Bootcamp
-
-### 第十节:没想好写点啥
